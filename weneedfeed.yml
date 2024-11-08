@@ -1,22 +1,14 @@
 selectors: &selectors
-  item_selector: ".chapter > ul > li"
-  item_image_selector: "a > img"
-  item_link_selector: "a"
-  item_time_selector: "a > div > div:nth-last-child(1)"
-  item_title_selector: "a > div > div:nth-last-child(2)"
+  item_selector: "#new_story"
+  item_image_selector: "figure > img"
+  item_link_selector: "div.right > a"
+  item_time_selector: " div.right > p.kikan"
+  item_title_selector: " div.right > p.title"
 
-title: 裏サンデー
+title: コミックヴァルキリー
 
 pages:
-  - id: rairairai
-    title: 雷雷雷
-    url: https://urasunday.com/title/2341/212119
-    <<: *selectors
-  - id: kyushin_tensei
-    title: 球神転生
-    url: https://urasunday.com/title/2725/233653
-    <<: *selectors
-  - id: sono_hono_no_na_ha_seiheki
-    title: その炎の名は性癖
-    url: https://urasunday.com/title/3026/266958
+  - id: mashoban
+    title: 魔法少女×敗北裁判
+    url: https://www.comic-valkyrie.com/mashoban/
     <<: *selectors
