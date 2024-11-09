@@ -1,14 +1,15 @@
 selectors: &selectors
-  item_selector: "#new_story"
-  item_image_selector: "figure > img"
-  item_link_selector: "div.right > a"
-  item_time_selector: " div.right > p.kikan"
-  item_title_selector: " div.right > p.title"
+  item_selector: "main > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(3)"
+  item_link_selector: ":root > head > link:nth-child(21)"
+  item_title_selector: "li > button > div:nth-child(2) > p:nth-child(1)"
+  item_image_selector: "li > button > div:nth-child(1) > img"
+  item_time_selector: "li > button > time"
 
-title: コミックヴァルキリー
+
+title: 週刊コロコロコミック
 
 pages:
-  - id: mashoban
-    title: 魔法少女×敗北裁判
-    url: https://www.comic-valkyrie.com/mashoban/
+  - id: nikke
+    title: 勝利の女神：NIKKE すいーとえんかうんと
+    url: https://www.corocoro.jp/title/29
     <<: *selectors

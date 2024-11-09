@@ -1,8 +1,8 @@
 # weneedfeed-comic-valkyrie
 
-[![](https://github.com/shishi/weneedfeed-comic-valkyrie/workflows/publish/badge)](https://github.com/shishi/weneedfeed-comic-valkyrie/actions?query=workflow%3Apublish)
+[![](https://github.com/shishi/weneedfeed-corocoro/workflows/publish/badge)](https://github.com/shishi/weneedfeed-corocoro/actions?query=workflow%3Apublish)
 
-The source of [shishi.github.io/weneedfeed-comic-valkyrie/](ttps://shishi.github.io/weneedfeed-comic-valkyrie/).
+The source of [shishi.github.io/weneedfeed-corocoro/](https://shishi.github.io/weneedfeed-corocoro).
 
 - This site provides RSS feeds for each of the comics
   on [https://www.comic-valkyrie.com](https://www.comic-valkyrie.com).
