@@ -1,9 +1,9 @@
 selectors: &selectors
-  item_selector: "main > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(3)"
+  item_selector: "main > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(3) > li"
   item_link_selector: ":root > head > link:nth-child(21)"
-  item_title_selector: "li > button > div:nth-child(2) > p:nth-child(1)"
-  item_image_selector: "li > button > div:nth-child(1) > img"
-  item_time_selector: "li > button > time"
+  item_title_selector: "button > div:nth-child(2) > p:nth-child(1)"
+  item_image_selector: "button > div:nth-child(1) > img"
+  item_time_selector: "button > time"
 
 
 title: 週刊コロコロコミック
@@ -12,4 +12,20 @@ pages:
   - id: nikke
     title: 勝利の女神：NIKKE すいーとえんかうんと
     url: https://www.corocoro.jp/title/29
+    <<: *selectors
+  - id: nijisanji
+    title: にじさんじ
+    url: https://www.corocoro.jp/title/62
+    <<: *selectors
+  - id: gorushi
+    title: ウマ娘 ピスピス☆スピスピ ゴルシちゃん
+    url: https://www.corocoro.jp/title/11
+    <<: *selectors
+  - id: downer
+    title: ダウナーお姉さんは遊びたい
+    url: https://www.corocoro.jp/title/149
+    <<: *selectors
+  - id: danko
+    title: 炎の闘球女　ドッジ弾子
+    url: https://www.corocoro.jp/title/5
     <<: *selectors
