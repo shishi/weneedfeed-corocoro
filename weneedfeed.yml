@@ -9,6 +9,10 @@ selectors: &selectors
 title: 週刊コロコロコミック
 
 pages:
+  - id: ketsu
+    title: ケツバトラー
+    url: https://www.corocoro.jp/title/605
+    <<: *selectors
   - id: nikke
     title: 勝利の女神：NIKKE すいーとえんかうんと
     url: https://www.corocoro.jp/title/29
